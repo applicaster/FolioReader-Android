@@ -3,7 +3,8 @@
 # Check https://circleci.com/docs/2.0/language-java/ for more details
 #
 defaults: &defaults
-  working_directory: ~/applicaster/FolioReader-Android
+  working_directory: ~/applicaster/FolioReader-Android/folioreader
+
   docker:
     - image: circleci/android:api-27-alpha
 

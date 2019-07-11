@@ -20,12 +20,6 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
-#-----------Adapter------------#
--keep public class com.applicaster.login.plugins.cw.CWLoginAdapter {
-   public <fields>;
-   public <methods>;
-}
-
 -keep public interface com.folioreader.** {*;}
 
 
